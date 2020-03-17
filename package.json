@@ -1,0 +1,9 @@
+{
+  "name": "SAP002-caesar-cipher",
+  "version": "1.0.0",
+  "description": "Testes da Cifra de César",
+  "main": "index.js",
+  "repository": "https://github.com/aplaraujo/SAP002-caesar-cipher.git",
+  "author": "Ana Paula Lopes Araujo",
+  "license": "MIT"
+}
