@@ -8,10 +8,11 @@
   "license": "MIT",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.1.0"
+    "mocha": "^7.1.0",
+    "nyc": "^15.0.0"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/*.js --require babel-register --reporter spec || exit 0"
+    "test": "./node_modules/.bin/nyc ./node_modules/mocha/bin/mocha test/*.js --require babel-register --reporter spec || exit 0"
   },
   "devDependencies": {
     "babel-preset-latest": "^6.24.1",
